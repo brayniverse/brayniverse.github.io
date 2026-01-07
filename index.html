@@ -33,17 +33,63 @@
                         "name": "Brayniverse",
                         "description": "Brayniverse - expanding media through original stories, creative tools, and curious experiments.",
                         "inLanguage": "en",
-                        "publisher": { "@id": "https://brayniverse.com/#person" }
+                        "publisher": { "@id": "https://brayniverse.com/#organization" }
+                    },
+                    {
+                        "@type": "Organization",
+                        "@id": "https://brayniverse.com/#organization",
+                        "name": "Brayniverse",
+                        "url": "https://brayniverse.com/",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "url": "https://brayniverse.com/assets/site/favicon.png"
+                        }
                     },
                     {
                         "@type": "Person",
                         "@id": "https://brayniverse.com/#person",
                         "name": "Christopher Bray",
                         "url": "https://brayniverse.com/",
+                        "jobTitle": "Senior Software Engineer (and Film Enthusiast)",
                         "sameAs": [
                             "https://twitter.com/brayniverse",
-                            "https://github.com/brayniverse"
+                            "https://github.com/brayniverse",
+                            "https://www.linkedin.com/in/christopherlbray"
                         ]
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://brayniverse.com/#collectionpage",
+                        "url": "https://brayniverse.com/",
+                        "name": "Brayniverse - Expanding media",
+                        "description": "Brayniverse - expanding media through original stories, creative tools, and curious experiments.",
+                        "isPartOf": { "@id": "https://brayniverse.com/#website" },
+                        "mainEntity": {
+                            "@type": "ItemList",
+                            "name": "Latest Blog Posts",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "url": "https://brayniverse.com/notes-on-recommendation-a-necessary-detour/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "url": "https://brayniverse.com/waiting-for-bojangles-2021-review/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "url": "https://brayniverse.com/coherence-2013-review/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "url": "https://brayniverse.com/building-a-recommendation-engine-for-the-unexpected/"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
