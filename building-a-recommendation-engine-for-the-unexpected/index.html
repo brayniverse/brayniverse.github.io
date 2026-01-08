@@ -18,10 +18,8 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@brayniverse">
         <link rel="icon" type="image/png" href="/assets/site/favicon.png" />
-        <link rel="preload" as="style" href="/build/assets/site-3cd754b3.css" />
-        <link rel="modulepreload" as="script" href="/build/assets/site-96d6c777.js" />
-        <link rel="stylesheet" href="/build/assets/site-3cd754b3.css" />
-        <script type="module" src="/build/assets/site-96d6c777.js"></script>
+        <link rel="preload" as="style" href="/build/assets/site.css" />
+        <link rel="stylesheet" href="/build/assets/site.css" />
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
@@ -96,7 +94,7 @@
             }
         </style>
     </head>
-    <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">
+    <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10">
         <a href="#main-content" class="sr-only focus:not-sr-only">Skip to content</a>
         <nav class="flex items-center justify-between lg:justify-start flex-wrap py-10 max-w-5xl mx-auto">
     <div class="text-md antialiased font-medium">
@@ -104,16 +102,16 @@
     </div>
 </nav>
 
-        <main id="main-content" class="max-w-5xl mx-auto relative mt-16 content">
-    <article class="lg:py-32 max-w-2xl mx-auto">
+        <main id="main-content" class="max-w-5xl mx-auto relative mt-16">
+    <article class="max-w-2xl mx-auto prose">
         <h1>The Watchlist Project: Building a Recommendation Engine for the Unexpected</h1>
         <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
             Published
 
             on Dec 5, 2025
         </div>
-        <div class="content">
-            <p>I've started work on something I've wanted for years but never found anywhere in the wild: a recommendation engine that doesn't just show me more of the same. I want something that <em>nudges</em> me toward films and TV shows I'd never normally pick. Not the popular stuff, not the algorithmically obvious stuff - something far more personal, and a little bit&nbsp;unexpected.</p>
+        <div>
+            <p class="lead">I've started work on something I've wanted for years but never found anywhere in the wild: a recommendation engine that doesn't just show me more of the same. I want something that <em>nudges</em> me toward films and TV shows I'd never normally pick. Not the popular stuff, not the algorithmically obvious stuff - something far more personal, and a little bit&nbsp;unexpected.</p>
 <p>For now, I'm calling it <strong>the Watchlist&nbsp;Project</strong>.</p>
 <p>The basic features are what you'd expect. I'll be logging what I've watched, what I'm watching, and what I plan to watch. That gives me the raw data to chew on. But that isn't the grand idea. The real goal is to build a system that can form a kind of &quot;taste profile&quot; from that data - not a demographic caricature (&quot;you watched a sci-fi film, here are nine more sci-fi films&quot;) but a more nuanced sense of mood, tone, themes, pacing, emotional temperature, and the kinds of creative risks I tend to gravitate&nbsp;toward.</p>
 <p>I want a system that can&nbsp;say:</p>
@@ -214,7 +212,7 @@ The goal is &quot;here's something you never would have clicked on, but will abs
 </main>
 
         <nav class="flex items-center justify-between flex-wrap py-12 lg:py-24 max-w-5xl mx-auto">
-    <div class="text-sm">&copy; 2025 Brayniverse – Powered by <a href="https://statamic.com?ref=cool-writings" class="hover:text-teal">Statamic</a></div>
+    <div class="text-sm">&copy; 2026 Brayniverse</div>
     <div class="flex items-center">
 
             <a href="https://twitter.com/brayniverse" class="ml-4" aria-label="Twitter" rel="noopener">

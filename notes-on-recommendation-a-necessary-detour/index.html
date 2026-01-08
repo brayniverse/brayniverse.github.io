@@ -18,10 +18,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@brayniverse">
     <link rel="icon" type="image/png" href="/assets/site/favicon.png" />
-    <link rel="preload" as="style" href="/build/assets/site-3cd754b3.css" />
-    <link rel="modulepreload" as="script" href="/build/assets/site-96d6c777.js" />
-    <link rel="stylesheet" href="/build/assets/site-3cd754b3.css" />
-    <script type="module" src="/build/assets/site-96d6c777.js"></script>
+    <link rel="preload" as="style" href="/build/assets/site.css" />
+    <link rel="stylesheet" href="/build/assets/site.css" />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -95,7 +93,7 @@
         }
     </style>
 </head>
-<body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">
+<body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10">
 <a href="#main-content" class="sr-only focus:not-sr-only">Skip to content</a>
 <nav class="flex items-center justify-between lg:justify-start flex-wrap py-10 max-w-5xl mx-auto">
     <div class="text-md antialiased font-medium">
@@ -104,7 +102,7 @@
 </nav>
 
 <main id="main-content" class="max-w-5xl mx-auto relative mt-16 content">
-    <article class="lg:py-32 max-w-2xl mx-auto">
+    <article class="max-w-2xl mx-auto prose">
         <h1>Notes on Recommendation: A Necessary Detour</h1>
 
         <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
@@ -113,8 +111,8 @@
             on Jan 03, 2026
         </div>
 
-        <div class="content">
-            <p>I recently wrote <a href="/building-a-recommendation-engine-for-the-unexpected">about building a film recommendation engine</a> designed to encourage discovery beyond streaming catalogues. That project is still the destination.</p>
+        <div>
+            <p class="lead">I recently wrote <a href="/building-a-recommendation-engine-for-the-unexpected">about building a film recommendation engine</a> designed to encourage discovery beyond streaming catalogues. That project is still the destination.</p>
             <p>However, I've decided to take a side-step: to build some smaller tools and experiments in the same domain before continuing with the original idea.</p>
 
             <h2>A Constrained Experiment</h2>
@@ -142,7 +140,7 @@
 </main>
 
 <nav class="flex items-center justify-between flex-wrap py-12 lg:py-24 max-w-5xl mx-auto">
-    <div class="text-sm">&copy; 2026 Brayniverse – Powered by <a href="https://statamic.com?ref=cool-writings" class="hover:text-teal">Statamic</a></div>
+    <div class="text-sm">&copy; 2026 Brayniverse</div>
     <div class="flex items-center">
 
         <a href="https://twitter.com/brayniverse" class="ml-4" aria-label="Twitter" rel="noopener">
